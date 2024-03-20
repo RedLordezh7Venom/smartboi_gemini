@@ -1,4 +1,4 @@
-﻿import os
+import os
 import re
 
 import aiohttp
@@ -15,7 +15,7 @@ GOOGLE_AI_KEY = os.getenv("GOOGLE_AI_KEY")
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 MAX_HISTORY = int(os.getenv("MAX_HISTORY"))
 
-#---------------------------------------------AI Configuration-------------------------------------------------
+#---------------------------------------------AI Configuration
 
 # Configure the generative AI model
 genai.configure(api_key=GOOGLE_AI_KEY)
